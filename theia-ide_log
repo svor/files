@@ -1,0 +1,215 @@
+root INFO Theia app listening on http://0.0.0.0:3100 .
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginTheiaFileHandler { unpackedFolder: '/tmp/theia-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'eclipse_che_ports_plugin.theia',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath: '/default-theia-plugins/eclipse_che_ports_plugin.theia',
+     initPath: '/default-theia-plugins/eclipse_che_ports_plugin.theia',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginTheiaFileHandler' }
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginTheiaFileHandler { unpackedFolder: '/tmp/theia-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'eclipse_che_theia_containers_plugin.theia',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath:
+      '/default-theia-plugins/eclipse_che_theia_containers_plugin.theia',
+     initPath:
+      '/default-theia-plugins/eclipse_che_theia_containers_plugin.theia',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginTheiaFileHandler' }
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginTheiaFileHandler { unpackedFolder: '/tmp/theia-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'eclipse_che_theia_factory_plugin.theia',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath:
+      '/default-theia-plugins/eclipse_che_theia_factory_plugin.theia',
+     initPath:
+      '/default-theia-plugins/eclipse_che_theia_factory_plugin.theia',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginTheiaFileHandler' }
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginTheiaFileHandler { unpackedFolder: '/tmp/theia-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'eclipse_che_welcome_plugin.theia',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath: '/default-theia-plugins/eclipse_che_welcome_plugin.theia',
+     initPath: '/default-theia-plugins/eclipse_che_welcome_plugin.theia',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginTheiaFileHandler' }
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginTheiaFileHandler { unpackedFolder: '/tmp/theia-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'task_plugin.theia',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath: '/default-theia-plugins/task_plugin.theia',
+     initPath: '/default-theia-plugins/task_plugin.theia',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginTheiaFileHandler' }
+root INFO unzipping the plugin ProxyPluginDeployerEntry {
+  deployer:
+   PluginTheiaFileHandler { unpackedFolder: '/tmp/theia-unpacked' },
+  delegate:
+   PluginDeployerEntryImpl {
+     originId: 'local-dir:///default-theia-plugins',
+     pluginId: 'theia_yeoman_plugin.theia',
+     map: Map {},
+     changes: [],
+     acceptedTypes: [],
+     currentPath: '/default-theia-plugins/theia_yeoman_plugin.theia',
+     initPath: '/default-theia-plugins/theia_yeoman_plugin.theia',
+     resolved: true,
+     resolvedByName: 'LocalDirectoryPluginDeployerResolver' },
+  deployerName: 'PluginTheiaFileHandler' }
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/theia-unpacked/eclipse_che_ports_plugin.theia
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/theia-unpacked/eclipse_che_theia_containers_plugin.theia
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/theia-unpacked/eclipse_che_theia_factory_plugin.theia
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/theia-unpacked/eclipse_che_welcome_plugin.theia
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/theia-unpacked/task_plugin.theia
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /tmp/theia-unpacked/theia_yeoman_plugin.theia
+root INFO PluginTheiaDirectoryHandler: accepting plugin with path /plugins/sidecars
+root INFO Deploying backend plugin "@eclipse-che/ports-plugin@0.0.1" from "/tmp/theia-unpacked/eclipse_che_ports_plugin.theia/lib/ports-plugin.js"
+root INFO Deploying backend plugin "@eclipse-che/theia-containers-plugin@0.0.2" from "/tmp/theia-unpacked/eclipse_che_theia_containers_plugin.theia/lib/containers-plugin.js"
+root INFO Deploying backend plugin "@eclipse-che/theia-factory-plugin@0.0.1" from "/tmp/theia-unpacked/eclipse_che_theia_factory_plugin.theia/lib/factory-plugin.js"
+root INFO Deploying backend plugin "@eclipse-che/welcome-plugin@0.0.1" from "/tmp/theia-unpacked/eclipse_che_welcome_plugin.theia/lib/welcome-plugin.js"
+root INFO Deploying backend plugin "task-plugin@0.0.1" from "/tmp/theia-unpacked/task_plugin.theia/lib/task-plugin-backend.js"
+root INFO Deploying backend plugin "@theia/yeoman-plugin@0.0.1-1539189859" from "/tmp/theia-unpacked/theia_yeoman_plugin.theia/lib/theia-yeoman-plugin-backend-plugin.js"
+root WARN Failed to resolve module: @types/body-parser
+root WARN Failed to resolve module: @types/bunyan
+root WARN Failed to resolve module: @types/express
+root WARN Failed to resolve module: @types/lodash.debounce
+root WARN Failed to resolve module: @types/lodash.throttle
+root WARN Failed to resolve module: @types/react
+root WARN Failed to resolve module: @types/react-dom
+root WARN Failed to resolve module: @types/react-virtualized
+root WARN Failed to resolve module: @types/route-parser
+root WARN Failed to resolve module: @types/ws
+root WARN Failed to resolve module: @types/yargs
+root WARN Failed to resolve module: font-awesome
+root WARN Failed to resolve module: react
+root WARN Failed to resolve module: react-dom
+root WARN Failed to resolve module: react-virtualized
+root WARN Failed to resolve module: @types/fs-extra
+root WARN Failed to resolve module: @types/mime-types
+root WARN Failed to resolve module: @types/rimraf
+root WARN Failed to resolve module: @types/tar-fs
+root WARN Failed to resolve module: @types/touch
+root WARN Failed to resolve module: @types/uuid
+root WARN Failed to resolve module: @typefox/monaco-editor-core
+root WARN Failed to resolve module: @types/base64-arraybuffer
+root WARN Failed to resolve module: @theia/monaco
+root WARN Failed to resolve module: @types/p-debounce
+root WARN Failed to resolve module: @types/diff
+root WARN Failed to resolve module: @types/p-queue
+root WARN Failed to resolve module: @types/highlight.js
+root WARN Failed to resolve module: @types/markdown-it
+root WARN Failed to resolve module: @types/markdown-it-anchor
+root WARN Collided keybinding is ignored;  {"command":"outlineView:toggle","keybinding":"ctrlcmd+shift+s"}  collided with  {"command":"file.saveAs","keybinding":"ctrl+shift+s"}
+root WARN Could not register keybinding:
+  {"command":"outlineView:toggle","keybinding":"ctrlcmd+shift+s"}
+Error: "ctrlcmd+shift+s" is in collision with something else [scope:0]
+root WARN e.onStart is slow, took: 176.39500000041153 ms
+root INFO Using Git [2.20.1] from the PATH. (/usr/bin/git)
+root INFO [nsfw-watcher: 32] Started watching: /home/theia/.theia
+root INFO [nsfw-watcher: 32] Started watching: /projects
+root WARN e.onStart is slow, took: 1403.6350000005768 ms
+root INFO [nsfw-watcher: 32] Started watching: /projects
+root INFO [nsfw-watcher: 32] Started watching: /projects
+root INFO Config file tasks.json does not exist under file:///projects
+root INFO [hosted-plugin: 53] PLUGIN_HOST(53) starting instance
+root INFO [hosted-plugin: 53] PLUGIN_HOST(53): PluginManagerExtImpl/init()
+PLUGIN_HOST(53): initializing(/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/scanners/backend-init-theia.js)
+root INFO [hosted-plugin: 53] PLUGIN_HOST(53): initializing(/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/scanners/backend-init-theia.js)
+PLUGIN_HOST(53): initializing(/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/scanners/backend-init-theia.js)
+PLUGIN_HOST(53): initializing(/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/scanners/backend-init-theia.js)
+PLUGIN_HOST(53): initializing(/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/scanners/backend-init-theia.js)
+PLUGIN_HOST(53): initializing(/home/theia/node_modules/@theia/plugin-ext/lib/hosted/node/scanners/backend-init-theia.js)
+PLUGIN_HOST(53): PluginManagerExtImpl/loadPlugin(/tmp/theia-unpacked/eclipse_che_ports_plugin.theia/lib/ports-plugin.js)
+root INFO [hosted-plugin: 53] PLUGIN_HOST(53): PluginManagerExtImpl/loadPlugin(/tmp/theia-unpacked/eclipse_che_theia_containers_plugin.theia/lib/containers-plugin.js)
+root INFO [hosted-plugin: 53] PLUGIN_HOST(53): PluginManagerExtImpl/loadPlugin(/tmp/theia-unpacked/eclipse_che_theia_factory_plugin.theia/lib/factory-plugin.js)
+root INFO [hosted-plugin: 53] PLUGIN_HOST(53): PluginManagerExtImpl/loadPlugin(/tmp/theia-unpacked/eclipse_che_welcome_plugin.theia/lib/welcome-plugin.js)
+root INFO [hosted-plugin: 53] PLUGIN_HOST(53): PluginManagerExtImpl/loadPlugin(/tmp/theia-unpacked/task_plugin.theia/lib/task-plugin-backend.js)
+root INFO [hosted-plugin: 53] PLUGIN_HOST(53): PluginManagerExtImpl/loadPlugin(/tmp/theia-unpacked/theia_yeoman_plugin.theia/lib/theia-yeoman-plugin-backend-plugin.js)
+root ERROR [hosted-plugin: 53] Error: Unexpected server response: 503
+WebSocket: Reconnecting in 1000ms due to 
+(node:53) UnhandledPromiseRejectionWarning: Error: Unexpected server response: 503
+    at ClientRequest.req.on (/tmp/theia-unpacked/task_plugin.theia/node_modules/ws/lib/websocket.js:542:5)
+    at ClientRequest.emit (events.js:189:13)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:556:21)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:109:17)
+    at Socket.socketOnData (_http_client.js:442:20)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    at Socket.Readable.push (_stream_readable.js:220:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:94:17)
+(node:53) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:53) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+root ERROR [hosted-plugin: 53] WebSocket: Reconnecting...
+root ERROR [hosted-plugin: 53] Error: Unexpected server response: 503
+WebSocket: Reconnecting in 1000ms due to 
+root ERROR [hosted-plugin: 53] WebSocket: Reconnecting...
+Error: Unexpected server response: 503
+WebSocket: Reconnecting in 1000ms due to 
+root ERROR [hosted-plugin: 53] WebSocket: Reconnecting...
+root ERROR [hosted-plugin: 53] Error: Unexpected server response: 503
+WebSocket: Reconnecting in 1000ms due to 
+root ERROR [hosted-plugin: 53] WebSocket: Reconnecting...
+root ERROR [hosted-plugin: 53] Error: Unexpected server response: 503
+WebSocket: Reconnecting in 1000ms due to 
+root INFO Started watching the git repository: file:///projects/fuse-rest-http-booster
+root INFO Checking whether '--no-optional-locks' can be used with the current Git executable. Minimum required version is '2.15.0'.
+root INFO Checking whether '--no-optional-locks' can be used with the current Git executable. Minimum required version is '2.15.0'.
+root INFO '--no-optional-locks' is a valid Git option for the current Git version: '2.20.1'.
+root INFO '--no-optional-locks' is a valid Git option for the current Git version: '2.20.1'.
+root INFO Stopped watching the git repository: file:///projects/fuse-rest-http-booster
+root INFO Started watching the git repository: file:///projects/fuse-rest-http-booster
+root ERROR [hosted-plugin: 53] WebSocket: Reconnecting...
+root ERROR [hosted-plugin: 53] Error: Unexpected server response: 503
+WebSocket: Reconnecting in 1000ms due to 
+root ERROR [hosted-plugin: 53] WebSocket: Reconnecting...
+root ERROR [hosted-plugin: 53] Error: Unexpected server response: 503
+WebSocket: Reconnecting in 1000ms due to 
+root ERROR [hosted-plugin: 53] WebSocket: Reconnecting...
+root ERROR [hosted-plugin: 53] Error: Unexpected server response: 503
+WebSocket: Reconnecting in 1000ms due to 
+root ERROR [hosted-plugin: 53] WebSocket: Reconnecting...
+root ERROR [hosted-plugin: 53] Error: Unexpected server response: 503
+WebSocket: Reconnecting in 1000ms due to 
+root ERROR [hosted-plugin: 53] WebSocket: Reconnecting...
+Error: Unexpected server response: 503
+WebSocket: Reconnecting in 1000ms due to 
+root ERROR [hosted-plugin: 53] WebSocket: Reconnecting...
+root INFO Stopped watching the git repository: file:///projects/fuse-rest-http-booster
